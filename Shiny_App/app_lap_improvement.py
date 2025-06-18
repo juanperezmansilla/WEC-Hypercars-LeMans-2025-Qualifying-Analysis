@@ -6,7 +6,7 @@ from shiny import App, ui, render, reactive
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 
-ALL_SESSIONS = pd.read_csv("C:/Users/juanp/Downloads/all_sessions.csv", delimiter=",")
+ALL_SESSIONS = pd.read_csv("C:....", delimiter=",")
 
 features = [
     'LAP_NUMBER', 'S1_IMPROVEMENT', 'S2_IMPROVEMENT', 'S3_IMPROVEMENT',
